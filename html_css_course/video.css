@@ -1,0 +1,85 @@
+  .Thumbnail1{
+              width: 100%;
+              
+              margin-bottom: 10px;
+             
+         }
+        
+       
+      
+         .channellogo{
+
+            width: 50px;
+            vertical-align: top;
+            margin-top: 0px;
+           
+         }
+         .vidtitle{
+            width: 200px;
+           
+         }
+         .logo{
+            width: 40px;
+            border-radius: 50%;
+            vertical-align: top;
+         }
+     .title1{
+      margin-top: 0px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height:  18px;
+      margin-bottom: 0px;
+     }
+     .Channel1{
+      font-size: 12px;
+      color: grey;
+      margin-top: 12px;
+      margin-bottom: 0px;
+
+     }
+     .Details1{
+      font-size: 12px;
+      color: grey;
+      margin-top:3px;
+     }
+    
+.videoinfogrid {
+  display: grid;
+  grid-template-columns: 50px 1fr; 
+  column-gap: 10px;
+  align-items: start;
+}
+
+     .videogrid{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    
+      }
+   @media (max-width:800px){
+      .videogrid{
+         grid-template-columns: repeat(2, 1fr);
+      }
+   }
+   @media (min-width:1000px){
+      .videogrid{
+         grid-template-columns: repeat(4,1fr);
+      }
+   }
+      .thumbnailrow{
+         position: relative;
+         z-index: 0;
+      }
+      .vidtime{
+        position: absolute;
+        bottom: 20px;
+        right: 7px;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        padding: 2px 4px;
+        font-size: 12px;
+        border-radius: 2px;
+        opacity: 1;
+      }
+    
